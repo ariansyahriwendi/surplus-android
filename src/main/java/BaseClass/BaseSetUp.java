@@ -22,9 +22,8 @@ public class BaseSetUp {
             caps.setCapability(PLATFORM_NAME, "Android");
             caps.setCapability(PLATFORM_VERSION, "10.0");
             caps.setCapability(AUTOMATION_NAME, "UiAutomator2");
-//            caps.setCapability(APP, "/Users/macbookpro/git/sample-android-app-login-test-apk-pure/apk/Sample Android App - Login Tes_4.0_Apkpure.apk");
-            caps.setCapability(APP_PACKAGE, "com.loginmodule.learning");
-            caps.setCapability(APP_ACTIVITY, "com.loginmodule.learning.activities.LoginActivity");
+            caps.setCapability(APP_PACKAGE, "surplus.surplus_apps_customer");
+            caps.setCapability(APP_ACTIVITY, "surplus.surplus_apps_customer.MainActivity");
             caps.setCapability(NO_RESET, true);
 
             URL url = new URL("http://localhost:4723/wd/hub");

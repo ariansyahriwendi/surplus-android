@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         glue = "TestStep",
         features = "src/test/java/BDD/",
         plugin = {"pretty", "json:target/cucumber.json"},
-        tags = "@Login"
+        tags = "@Order"
 )
 
 public class TestRunner extends BaseSetUp{
